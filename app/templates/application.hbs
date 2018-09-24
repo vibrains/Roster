@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <a href="/" class="navbar-brand">
+        <img class="img-fluid" src="/assets/images/rm-logo.webp" alt="WebP rules." />
+      </a>
+      <a href="/" class="navbar-brand">
+        <img class="img-fluid tim-logo" src="/assets/images/tim-logo.webp" alt="WebP rules." />
+     </a>
+   </div>
+   <div class="menu">
+    {{#link-to "index"}}
+    <h1>
+      <em>As Roma Roster</em>
+    </h1>
+    {{/link-to}}
+    <div class="links">
+      {{#link-to "about" class="menu-about"}}
+      About
+      {{/link-to}}
+      {{#link-to "contact" class="menu-contact"}}
+      Contact
+      {{/link-to}}
+    </div>
+  </div>
+</div>
+</div>
+<div class="container">
+  <div class="row">
+    {{outlet}}
+  </div>
+</div>

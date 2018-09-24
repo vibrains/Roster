@@ -1,0 +1,20 @@
+<div class="card player">
+	<div class="card-body">
+		{{#if roster.image}}
+		<div class="card-img-top image"><img class="img-fluid" src="{{roster.image}}" alt="{{roster.name}}"></div>
+		{{/if}}
+		<h5 class="card-title">{{roster.name}}</h5>
+		<div class="detail owner">
+			<span>Position:</span> <span class="badge badge-light">{{roster.position}}</span>
+		</div>
+		<div class="detail type">
+			<span>Date of Birth:</span> {{roster.dateOfBirth}}
+		</div>
+		<div class="detail location">
+			<span>Country of Birth:</span> {{roster.countryOfBirth}}
+		</div>
+		<div class="detail bedrooms">
+			<span>Nationality:</span> {{roster.nationality}}
+		</div>
+	</div>
+</div>
